@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 { int x,i,j,k;
     printf("enter your sum of three number: ");
@@ -9,16 +8,12 @@ int main()
         for(j=1;j<7;j++){
             for(k=1;k<7;k++){
                 if(i+j+k==x){
-                    printf("(%d,%d,%d),",i,j,k);
-                }
-                
-            
+                    printf("(%d,%d,%d),",i,j,k);}
             }
         }
     }
 }
- else{
-     printf("Not possible");
- }
-    return 0;
+ else{printf("Not possible");
+   }
+   return 0;
 }
