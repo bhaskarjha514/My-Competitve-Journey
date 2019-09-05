@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 { int x,i,j,k;
-    printf("enter your sum of three number: ");
+    printf("Enter the number: ");
     scanf("%d",&x);
     if(x>=3){
     for(i=1;i<7;i++){
