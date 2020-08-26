@@ -1,3 +1,4 @@
+// 0 1 1 2 3 5 8 13
 import java.util.Scanner;
 public class fibonacci{
     public static void main(String[] args){
