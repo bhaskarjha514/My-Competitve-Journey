@@ -7,7 +7,7 @@ public class Main{
         if(x<2){
             isPrime = false;
         }else{
-            for(int i = 2; i<x; i++){
+            for(int i = 2; i*i<=x; i++){
            if(x%i==0){
                isPrime = false;
                break;
