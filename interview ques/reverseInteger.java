@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
-        System.out.println("Enter length of array");
+       
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int temp = n;                     //123
