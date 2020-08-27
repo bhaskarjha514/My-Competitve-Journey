@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String inputString = sc.nextLine();
+        String outPutString = sortString(inputString);
+        
+        System.out.println(inputString);
+        System.out.println(outPutString);
+    }
+    public static String sortString(String inputString){
+        char tempArray[] = inputString.toCharArray();
+        Arrays.sort(tempArray);
+        
+        return new String(tempArray);
+    }
+}
