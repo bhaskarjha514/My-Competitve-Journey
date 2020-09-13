@@ -11,13 +11,11 @@ public class Main
     
         int pow = 1;
         int always = a+b;
-        int ans = 0;
         
         for(int i=0;i<n;i++){
             int res = 0;
             if(i==0){
-                pow = 1;
-                ans = always; 
+                pow = 1; 
             }else{
                 pow = (pow*2); 
                 always = always+(pow*b);
