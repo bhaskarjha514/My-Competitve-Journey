@@ -13,7 +13,6 @@ public class Main
         int always = a+b;
         
         for(int i=0;i<n;i++){
-            int res = 0;
             if(i==0){
                 pow = 1; 
             }else{
